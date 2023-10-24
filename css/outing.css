@@ -156,15 +156,15 @@ ul li.active a{
 }
 
 .gallery1{
-    background-image: url(/MidtermProject/images/Rivermount.jpg);
+    background-image: url('/Midterm-Project/images/Rivermount.jpg');
 }
 
 .gallery2{
-    background-image: url(/MidtermProject/images/redjewel.jpg);
+    background-image: url('/Midterm-Project/images/redjewel.jpg');
 }
 
 .gallery3{
-    background-image: url(/MidtermProject/images/dragonfruit.jpg);
+    background-image: url('/Midterm-Project/images/dragonfruit.jpg');
 }
 
 h5{

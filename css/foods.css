@@ -137,19 +137,19 @@ ul li.active a{
 }
 
 .gallery1{
-    background-image: url(/MidtermProject/images/2pig.jpg);
+    background-image: url('/Midterm-Project/images/2pig.jpg');
 }
 
 .gallery2{
-    background-image: url(/MidtermProject/images/Chipay.jpg);
+    background-image: url('/Midterm-Project/images/Chipay.jpg');
 }
 
 .gallery3{
-    background-image: url(/MidtermProject/images/G.Avenue.jpg);
+    background-image: url('/Midterm-Project/images/G.Avenue.jpg');
 }
 
 .gallery4{
-    background-image: url(/MidtermProject/images/empanada.jpg);
+    background-image: url('/Midterm-Project/images/empanada.jpg');
 }
 
 h5{

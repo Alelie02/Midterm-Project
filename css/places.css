@@ -186,19 +186,19 @@ button:hover {
 }
 
 .gallery1{
-    background-image: url(/WebPage/images/marcoshouse.jpg);
+    background-image: url('/Midterm-Project/images/marcoshouse.jpg');
 }
 
 .gallery2{
-    background-image: url(/WebPage/images/Churh.jpg);
+    background-image: url('/Midterm-Project/images/Churh.jpg');
 }
 
 .gallery3{
-    background-image: url(/WebPage/images/Be.jpg);
+    background-image: url('/Midterm-Project/images/Be.jpg');
 }
 
 .gallery4{
-    background-image: url(/WebPage/images/Park.JPG);
+    background-image: url('/Midterm-Project/images/Park.JPG');
 }
 
 .gallery:hover {
