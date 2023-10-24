@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    background-image: linear-gradient(to right, #FFD194, #D1913C);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    height: auto; 
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    background-color:#FFEFCD;
+    padding: 3px 18px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 22px;
+    border-radius: 50px;
+}
+
+ul li a:hover{
+    background-color: rgba(151, 72, 15, 0.589);
+    color:#e7e9da;
+    text-shadow: #A58E74;
+    text-shadow: 0 0 2px rgba(31, 31, 58, 0.92),
+    0 0 10px rgba(230, 206, 129, 0.548),
+    0 0 4px rgba(238, 183, 33, 0.767),
+    0 0 7px rgba(231, 161, 31, 0.842),
+    0 0 11px rgba(228, 153, 15, 0.747),
+    0 0 16px rgba(240, 160, 12, 0.92);
+}
+
+ul li.active a{
+    background-color: rgba(43, 26, 8, 0.884);
+    color:whitesmoke;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.title h1{
+    font-size: 80px;
+    color:aliceblue;
+    margin-bottom: 25px;
+    position: relative;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.title h1:hover{
+    background-color: rgba(250, 244, 241, 0.87);
+    color:rgb(22, 21, 21);
+    text-shadow: 0 0 2px rgba(202,228,225,0.92),
+    0 0 10px rgba(247, 232, 227, 0.692),
+    0 0 4px rgba(230, 126, 30, 0.836),
+    0 0 7px rgba(230, 127, 10, 0.92),
+    0 0 11px rgba(241, 96, 12, 0.78),
+    0 0 ;
+}
+
+.title h1::after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 4px;
+    display: block;
+    margin: auto;
+    background-color: #4b1803;
+}
+
+.title p{
+    font-size: 22px;
+    color: rgb(71, 40, 4);
+    margin-bottom: 25px;
+    position: relative;
+    padding: 25px;
+    border-radius: 50px;
+    border:1px solid transparent;
+}
+
+.title p:hover{
+    background-color: rgba(250, 244, 241, 0.87);
+    color:rgb(22, 21, 21);
+    text-shadow: 0 0 2px rgba(202,228,225,0.92),
+    0 0 10px rgba(247, 232, 227, 0.692),
+    0 0 4px rgba(230, 126, 30, 0.836),
+    0 0 7px rgba(230, 127, 10, 0.92),
+    0 0 11px rgba(241, 96, 12, 0.78),
+    0 0 ;
+}
+
+button{
+    width: 180px;
+    color: black;
+    font-size: 20px;
+    font-family: bold;
+    padding: 12px 0;
+    background: #ebe5de;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #271905;
+    color: #ecdcce;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.gallery{
+    width: 420px;
+    height: 350px;
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+    align-items: center;
+}
+
+.gallery{
+    margin: 5px;
+    border: 1px solid ;
+}
+
+.gallery:hover{
+    transform: translate(-10px);
+}
+
+.gallery1{
+    background-image: url(/WebPage/images/marcoshouse.jpg);
+}
+
+.gallery2{
+    background-image: url(/WebPage/images/Churh.jpg);
+}
+
+.gallery3{
+    background-image: url(/WebPage/images/Be.jpg);
+}
+
+.gallery4{
+    background-image: url(/WebPage/images/Park.JPG);
+}
+
+.gallery:hover {
+    transform: translateY(-10px);
+}
+
+.gallery h5{
+    font-size: 30px;
+    text-align: center;
+    color:aliceblue;
+    background-color: #5f5555a8;
+    margin-bottom: 25px;
+    position: relative;
+    padding: 10px 20px;
+    border:1px solid transparent;
+    border-radius: 40px;
+}
+
+.gallery h5:hover{
+    color:rgb(3, 21, 41);
+    text-shadow: 0 0 2px rgba(202,228,225,0.92),
+    0 0 10px rgba(247, 232, 227, 0.692),
+    0 0 4px rgba(230, 126, 30, 0.836),
+    0 0 7px rgba(230, 127, 10, 0.92),
+    0 0 11px rgba(241, 96, 12, 0.78),
+    0 0 ;
+}
+
+.gallery1 p{
+    font-size: 20px;
+    text-align: center;
+    color: transparent;
+    margin-bottom: 35px;
+    border:1px solid transparent;
+    border-radius: 20px;
+}
+
+.gallery1 p:hover{
+    background-color: rgba(243, 159, 33, 0.651);
+    color:rgb(233, 229, 221);
+    text-shadow: 0 0 2px rgb(43, 41, 40),
+    0 0 10px rgba(39, 37, 35, 0.692),
+    0 0 4px rgba(58, 56, 55, 0.884),
+    0 0 7px rgba(22, 22, 21, 0.952),
+    0 0 11px rgba(48, 47, 47, 0.904),
+    0 0 ;
+}
+
+.gallery2 p{
+    font-size: 22px;
+    text-align: center;
+    color: transparent;
+    margin-top: 100px;
+    border:1px solid transparent;
+    border-radius: 20px;
+}
+
+.gallery2 p:hover{
+    background-color: rgba(243, 159, 33, 0.651);
+    color:rgb(233, 229, 221);
+    text-shadow: 0 0 2px rgb(43, 41, 40),
+    0 0 10px rgba(39, 37, 35, 0.692),
+    0 0 4px rgba(58, 56, 55, 0.884),
+    0 0 7px rgba(22, 22, 21, 0.952),
+    0 0 11px rgba(48, 47, 47, 0.904),
+    0 0 ;
+}
+
+.gallery3 p{
+    font-size: 50px;
+    text-align: center;
+    color: transparent;
+    margin-top: 100px;
+    border:1px solid transparent;
+    border-radius: 20px;
+}
+
+.gallery3 p:hover{
+    background-color: rgba(243, 159, 33, 0.651);
+    color:rgb(233, 229, 221);
+    text-shadow: 0 0 2px rgb(43, 41, 40),
+    0 0 10px rgba(39, 37, 35, 0.692),
+    0 0 4px rgba(58, 56, 55, 0.884),
+    0 0 7px rgba(22, 22, 21, 0.952),
+    0 0 11px rgba(48, 47, 47, 0.904),
+    0 0 ;
+}
+
+.gallery4 p{
+    font-size: 50px;
+    text-align: center;
+    color: transparent;
+    margin-top: 100px;
+    border:1px solid transparent;
+    border-radius: 20px;
+}
+
+.gallery4 p:hover{
+    background-color: rgba(243, 159, 33, 0.651);
+    color:rgb(233, 229, 221);
+    text-shadow: 0 0 2px rgb(43, 41, 40),
+    0 0 10px rgba(39, 37, 35, 0.692),
+    0 0 4px rgba(58, 56, 55, 0.884),
+    0 0 7px rgba(22, 22, 21, 0.952),
+    0 0 11px rgba(48, 47, 47, 0.904),
+    0 0 ;
+}

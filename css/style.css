@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header{ 
+    width: 100%;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(/Midterm-Project/images/Arch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(192, 157, 133);
+    padding: 3px 18px;
+    border-radius: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 22px;
+    border-radius: 50px;
+}
+
+ul li a:hover{
+    background-color: rgba(151, 72, 15, 0.589);
+    color:white;
+    text-shadow: 0 0 2px rgba(202,228,225,0.92),
+    0 0 10px rgba(219, 235, 8, 0.692),
+    0 0 4px rgba(222, 226, 12, 0.836),
+    0 0 7px rgba(230, 215, 10, 0.92),
+    0 0 11px rgba(228, 214, 15, 0.78),
+    0 0 16px rgba(224, 203, 8, 0.92);
+}
+
+ul li.active a{
+    background-color: rgb(243, 105, 6);
+    color:white;
+}
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;   
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.title{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.title h2{
+    font-size: 60px;
+    text-align: center;
+    color:rgb(63, 55, 48);
+    background-color: rgba(214, 175, 165, 0.651);
+    padding: 20px;
+    border-radius: 60px;
+}
+
+.title h2:hover{
+    background-color: rgba(250, 244, 241, 0.87);
+    color:rgb(22, 21, 21);
+    text-shadow: 0 0 2px rgba(202,228,225,0.92),
+    0 0 10px rgba(247, 232, 227, 0.692),
+    0 0 4px rgba(230, 126, 30, 0.836),
+    0 0 7px rgba(230, 127, 10, 0.92),
+    0 0 11px rgba(241, 96, 12, 0.78),
+    0 0 ;
+}
+
+.button{
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.btn{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(63, 55, 48);
+    background-color: rgba(214, 175, 165, 0.651);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: rgba(250, 244, 241, 0.87);
+    color:rgb(22, 21, 21);
+    text-shadow: 0 0 2px rgba(202,228,225,0.92),
+    0 0 10px rgba(247, 232, 227, 0.692),
+    0 0 4px rgba(230, 126, 30, 0.836),
+    0 0 7px rgba(230, 127, 10, 0.92),
+    0 0 11px rgba(241, 96, 12, 0.78),
+    0 0 ;
+}
+
+footer{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #594848;
+    color: white;
+    font-family: italic;
+    letter-spacing: 1px;
+}
+
+footer p{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e69f9f;
+    color: rgb(49, 15, 15);
+    font-family: italic;
+    letter-spacing: 1px;
+}
